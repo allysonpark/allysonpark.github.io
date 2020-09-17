@@ -34,10 +34,9 @@ form.wj-contact input[type="submit"] {
     font: Helvetica, Arial;
     background-color: #2e83e6;
     border-radius: 3px;
-    padding: 0.5em;
+    padding: 2.0em;
     margin: 0.25em 0 0 0;
     border: 1px solid transparent;
     height: auto;
-    position: absolute;
 }
 </style>
