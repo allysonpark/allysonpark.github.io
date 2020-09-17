@@ -3,7 +3,7 @@
 I'm a current junior at UC Berkeley majoring in Electrical Engineering and Computer Science. I'm passionate about using my skills to have positive impact on both my local communities and on a larger scale. When I'm not busy doing school projects, teaching classes, or doing research, you can probably find me crafting or performing! I like to stretch my brain and stay well rounded.
 
 ## Resume
-Heres a link to my most updated [CV](CV_8_27_20.pdf) as of September 2020. Happy reading!
+Heres a link to my most updated [CV](CV_website.pdf) as of September 2020. Happy reading!
 
 ## Values
 
