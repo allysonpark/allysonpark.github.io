@@ -1,3 +1,5 @@
+[Home](index.html)|[About](about.html) | [Contact](contact.html) | [Experience](experience.html)
+
 # Experience
 
 I changed my major from bioengineering to computer science midway through my second year of school, hence the short-ish list of projects available. Since discovering my new passion, however, I've spent plenty of time getting hands on experience in the world of computers. I'm always looking for ways to expand to this list and add new projects!
