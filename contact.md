@@ -14,6 +14,7 @@ I'm always open to job opportunities, feedback, and any old thing you might find
 <style>
 form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
     width: 60%;
+    margin: auto
     vertical-align: middle;
     margin-top: 0.25em;
     margin-bottom: 0.5em;
