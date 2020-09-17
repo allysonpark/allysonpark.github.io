@@ -2,14 +2,42 @@
 
 I'm always open to job opportunities, feedback, and any old thing you might find interesting!
 
-<div id="contact">
-        <h2>Can't wait to hear from you!</h2>
-        <div id="contact-form">
-                <form action="https://formspree.io/xqkyryjz" method="POST">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Type your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </div>
+<form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
+    <input type="text" name="email" placeholder="Email Address">
+    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
+    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="submit" value="Submit">
+</form>
+
+<style>
+form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+    width: 60%;
+    vertical-align: middle;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    border-style: solid;
+    border-color: #5198DF;
+    outline-color: #5198DF;
+    border-width: 1px;
+    border-radius: 10px;
+    transition: box-shadow .2s ease;
+}
+
+form.wj-contact input[type="submit"] {
+    outline: none;
+    color: white;
+    font: Helvetica, Arial;
+    background-color: #2e83e6;
+    border-radius: 3px;
+    padding: 0.5em;
+    margin: 0.25em 0 0 0;
+    border: 1px solid transparent;
+    height: auto;
+    position: absolute;
+}
+</style>
