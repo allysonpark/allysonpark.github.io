@@ -3,7 +3,7 @@
 I'm always open to job opportunities, feedback, and any old thing you might find interesting!
 
 <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>Can't wait to hear from you!</h2>
         <div id="contact-form">
                 <form action="https://formspree.io/xqkyryjz" method="POST">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />

@@ -13,5 +13,7 @@ Unfocused/Raw Images Collected From Holographic Microscope | Auto-focused Image 
 -------| -----------
 ![unfocused](images/IBM_unfocused.png)|![focused](images/IBM_focused.png)
 
-## Search Problems Applied To Pacman
-This project completed as part of the Berkeley course CS188: Introduction To Artificial Intelligence. Graphics and base code largely authored by CS188 Course Staff. As a school project, code must be private and can be shared upon request. I implemented depth first search, breadth first search, uniform cost 
+## Search Problems Applied To Pacman: Designing an Effective Heuristic
+This project completed as part of the Berkeley course CS188: Introduction To Artificial Intelligence. Graphics and base code largely authored by CS188 Course Staff. I implemented depth first search, breadth first search, uniform cost search, A* search, and greedy search. I also implemented set up of the food search problem, which defines Pacman's goal as eating all the food (as opposed to a general maze solving problem). My algorithm solves the below food search problem in 6.8 seconds with only 4436 nodes of the search tree expanded. This is compared to the staff solution, which takes 13 seconds and expands over 16,000 nodes. As a school project, code must be private and can be shared upon request.
+
+![pacman](images/pacman.png)
