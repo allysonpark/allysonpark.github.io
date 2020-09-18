@@ -1,4 +1,4 @@
-[Home](index.html)|[About](about.html) | [Contact](contact.html) | [Experience](experience.html)
+[Home](index.html) | [About](about.html) | [Contact](contact.html) | [Experience](experience.html)
 
 # Let's get in touch!
 

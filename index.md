@@ -1,4 +1,4 @@
-[Home](index.html)|[About](about.html) | [Contact](contact.html) | [Experience](experience.html)
+[Home](index.html) | [About](about.html) | [Contact](contact.html) | [Experience](experience.html)
 
 # Nice to meet you!
 ### I'm Allyson Park, a computer science student at UC Berkeley who's always ready to learn.
