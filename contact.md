@@ -1,4 +1,8 @@
-[Home](index.html) | [About](about.html) | [Contact](contact.html) | [Experience](experience.html)
+---
+layout: page
+title: "Contact"
+permalink: /contact
+---
 
 # Let's get in touch!
 
