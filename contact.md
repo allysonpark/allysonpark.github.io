@@ -1,10 +1,7 @@
 ---
-layout: page
-title: "Contact"
+title: "Let's get in touch!"
 permalink: /contact
 ---
-
-# Let's get in touch!
 
 I'm always open to job opportunities, feedback, and any old thing you might find interesting!
 

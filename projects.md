@@ -1,10 +1,6 @@
 ---
-layout: page
-title: "Projects"
-permalink: /projects
+title: "Work samples"
 ---
-
-# Work Samples
 
 ## Work at HP Instant Ink
 HP Instant Ink is a subscription service that allows users with eligible printers to pay a flat monthly rate for ink delivery to their doorstep whenever their printer detects that ink is low. Instant Ink services over 12+ million customers, with around 4-6K users going through our enrollment flow daily. Since 2022, I've worked with the Instant Team to create new and optimized signup flows, maintain our existing database of subscriptions, and add feature support to meet business goals.
@@ -22,6 +18,7 @@ Passing is a small RPG game in which the player controls a ghost who must do goo
 
 The game is playable on [itch.io](https://glumfrog.itch.io/passing) for free.
 
+[![Screenshot from Passing video game trailer](http://img.youtube.com/vi/e2MtPOK7Ui0/0.jpg)](http://www.youtube.com/watch?v=e2MtPOK7Ui0 "Passing trailer")
 
 ## iOS Development Example: inTune
 This project is still in development. InTune is an iOS application that allows two Spotify users to log in and get a compatibility score and a joint playlist of songs that they would enjoy listening to together. Below show some images of a few of the main pages of the app. In addition to serving as one of the 2 devs on this project, I also did the UI and UX design using Figma.
@@ -31,9 +28,9 @@ This project is still in development. InTune is an iOS application that allows t
 ## IBM Summer Research Project: Autofocusing a Digital Holographic Microscope
 Details of this project, including code, are confidential. Basic ideas to power this project include: image/video processing and manipulation, supervised machine learning, building command line applications, and building and working with large datasets.
 
-Unfocused/Raw Images Collected From Holographic Microscope | Auto-focused Image Using Algorithm Developed Over Summer
--------| -----------
-![unfocused](images/IBM_unfocused.png)|![focused](images/IBM_focused.png)
+| Unfocused/Raw Images Collected From Holographic Microscope | Auto-focused Image Using Algorithm Developed Over Summer |
+|------------------------------------------------------------|----------------------------------------------------------|
+| ![unfocused](images/IBM_unfocused.png)                     | ![focused](images/IBM_focused.png)                       |
 
 ## PintOS: Pint-sized operating System
 PintOS is an educational OS for the x86 architecture. Given the base PintOS source code, I worked in a team of 4 to add support for running user programs, multi-threading, and file system operations. The project was implemented in the C language. As a school project, code must be private and can be shared upon request.
