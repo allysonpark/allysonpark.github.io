@@ -1,22 +1,24 @@
----
-title: "Work samples"
----
-
-## Work at HP Instant Ink
+## HP Instant Ink
 HP Instant Ink is a subscription service that allows users with eligible printers to pay a flat monthly rate for ink delivery to their doorstep whenever their printer detects that ink is low. Instant Ink services over 12+ million customers, with around 4-6K users going through our enrollment flow daily. Since 2022, I've worked with the Instant Team to create new and optimized signup flows, maintain our existing database of subscriptions, and add feature support to meet business goals.
 
-The work I've done at HP includes, but is not limited to:
-- Created a new enrollment flow for web with a successful global launch
-- Added support for payment via PayPal within a webview-based application context, utilizing the PayPal SOAP APIs. The initial design plan for the flow contained several UX and data integrity gaps, which I noticed, and so I presented an alternative design that resolved them. Through these suggestions, I ended up serving as the POC to coordinate and answer questions across frontend, backend, design, and business/legal teams.
-- Created new Splunk dashboards for monitoring deployed code and caught bugs on production that would have otherwise gone unnoticed.
-- Played key role in initiative to fix errors in customer tax ID validation. Business administration provided what they thought would be a corrected validation script, but rather than just implementing it as asked, I took time to validate it against existing users and found inconsistencies. There were several rounds of back and forth to find a better script, during which time I repeatedly caught errors in scripts that others had given the green light. I researched and translated various tax ID validation libraries and provided this data to the business side, who utilized it to make an informed decision.
-- Made improvements to our various documentation pages and UI demo pages for internal use. This included changes to Readme files, Github wiki pages, openAPI Swagger documentation, and Storybook UI demo pages.
-- Hosted a "tech talk" workshop to teach my team how to use step-through debugging tools, increasing the team's overall efficiency. Even members with 10 and 30+ years of experience learned something new!
+<details>
+    <summary> 
+        Examples of work:
+    </summary>
+    <ul>
+        <li>Created a new enrollment flow for web with a successful global launch</li>
+        <li>Added support for payment via PayPal within a webview-based application context, utilizing the PayPal SOAP APIs. The initial design plan for the flow contained several UX and data integrity gaps, which I noticed, and so I presented an alternative design that resolved them. Through these suggestions, I ended up serving as the POC to coordinate and answer questions across frontend, backend, design, and business/legal teams. </li>
+        <li>Created new Splunk dashboards for monitoring deployed code and caught bugs on production that would have otherwise gone unnoticed.</li> 
+        <li>Played key role in initiative to fix errors in customer tax ID validation. Business administration provided what they thought would be a corrected validation script, but rather than just implementing it as asked, I took time to validate it against existing users and found inconsistencies. There were several rounds of back and forth to find a better script, during which time I repeatedly caught errors in scripts that others had given the green light. I researched and translated various tax ID validation libraries and provided this data to the business side, who utilized it to make an informed decision.</li> 
+        <li>Made improvements to our various documentation pages and UI demo pages for internal use. This included changes to Readme files, Github wiki pages, openAPI Swagger documentation, and Storybook UI demo pages.</li> 
+        <li>Hosted a "tech talk" workshop to teach my team how to use step-through debugging tools, increasing the team's overall efficiency. Even members with 10 and 30+ years of experience learned something new!</li>
+    </ul>
+</details>
 
 ## Game development sample: Passing
-Passing is a small RPG game in which the player controls a ghost who must do good deeds in order to reach the afterlife. The player can possess townspeople and interfere to bring them closer to their goals. I came up with the game concept and led a team of 3 other developers and artists to create our working game with Unity engine and C#. In addition to being the project manager, I also served as a lead developer, wrote all the game dialogue and interactions, created the character art assets (including animations) and composed the soundtrack.
+Passing is a small RPG game in which the player controls a ghost who must do good deeds in order to reach the afterlife. The player can possess townspeople and interfere to bring them closer to their goals. I came up with the game concept and led a team of 4 other developers and artists to create our working game with Unity engine and C#. In addition to being the project manager, I also served as a lead developer, wrote all the game dialogue and interactions, created the character art assets (including animations) and composed the soundtrack.
 
-The game is playable on [itch.io](https://glumfrog.itch.io/passing) for free.
+The game is playable on [itch.io](https://glumfrog.itch.io/passing) for free. The trailer is linked below.
 
 [![Screenshot from Passing video game trailer](http://img.youtube.com/vi/e2MtPOK7Ui0/0.jpg)](http://www.youtube.com/watch?v=e2MtPOK7Ui0 "Passing trailer")
 

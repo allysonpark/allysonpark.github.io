@@ -72,6 +72,42 @@ hr {
     float: right;
 }
 
+/* Contact Form */
+form.wj-contact {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+  vertical-align: middle;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+  padding: 0.75em;
+  font-family: Inconsolata, monospace;
+  font-weight: lighter;
+  border-style: solid;
+  border-color: #5198DF;
+  outline-color: #5198DF;
+  border-width: 1px;
+  border-radius: 10px;
+  transition: box-shadow .2s ease;
+  resize: vertical;
+}
+
+form.wj-contact input[type="submit"] {
+  outline: none;
+  color: white;
+  font-family: Inconsolata, monospace;
+  background-color: #2e83e6;
+  border-radius: 3px;
+  padding: 0.5em;
+  margin: 1.0em 0 0 0;
+  border: 1px solid transparent;
+  height: auto;
+  align-self: flex-end;
+}
+
 /* Divs */
 
 .container {
@@ -80,15 +116,6 @@ hr {
 }
 .wrapper {
     min-height: 100%;
-}
-
-/* Institute Image */
-
-#ins-logo {
-	margin: auto;
-	display: block;
-	max-height: 100px;
-	text-align: center;
 }
 
 /* Mobile */
