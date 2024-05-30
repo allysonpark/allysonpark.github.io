@@ -73,9 +73,22 @@ hr {
 }
 
 /* Contact Form */
+.contact-area {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.contact-area:before {
+  content: "";
+  border: .5px solid #d3d3d3;
+  align-self: stretch;
+}
+
 form.wj-contact {
   display: flex;
   flex-direction: column;
+  width: 100%
 }
 
 form.wj-contact input[type="text"] {
@@ -114,7 +127,9 @@ form.wj-contact input[type="submit"] {
 .socials {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  flex-direction: column;
+  order: -1;
 }
 
 .socials > h1 {
@@ -122,7 +137,7 @@ form.wj-contact input[type="submit"] {
 }
 
 .socials img {
-  max-width: 2rem;
+  max-width: 3rem;
 }
 
 /* Divs */
