@@ -19,9 +19,15 @@ nav:
     link: "projects"
   - name: "Contact"
     link: "contact"
+  - name: "Educational"
+    link: "educational"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 plugins:
   - jekyll-feed
 
