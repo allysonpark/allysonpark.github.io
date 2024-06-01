@@ -1,3 +1,7 @@
+---
+layout: educational
+---
+
 # Educational Materials
 
 ## Educational videos
@@ -14,16 +18,54 @@
 * [Sorting Algorithms](https://www.youtube.com/watch?v=-uZheITvvB8&list=PLNF4Mv5EsHj7f8fs_9qJ_KD5XHfBUlFub)
 * [Sorting (additional problems)](https://www.youtube.com/watch?v=e7aUJZIiA7c&list=PLNF4Mv5EsHj4QLTEw3uz42vJGKblD9usL)
 
-## Discussion problems authored
+## Discussion problems 
 
+These questions for written for CS61B's Discussion questions during Spring 2021. All questions and solutions shown were written by myself and potentially edited/reviewed by other GSIs; parts that were fully written by other individuals have been omitted. The questions may be viewed as PDFs or by clicking the dropdowns below.
+
+[Worksheet PDF](educational_materials/Discussion_Questions_Authorship_Compilation.pdf) \| [Solution PDF](educational_materials/Discussion_Questions_Authorship_Compilation_Solutions.pdf)
 
 <details>
     <summary>Inheritance</summary>
-
-{% include_relative educational_materials/inheritance_discussion.md %}
-
+    {% include_relative educational_materials/inheritance_discussion.md %}
 </details>
 
-## Exam problems authored
+<details>
+    <summary>Abstract Data Structures</summary>
+    {% include_relative educational_materials/adts.html %}
+</details>
 
-## Homework assignments created
+
+<details>
+    <summary>Asymptotic Analysis</summary>
+    {% include_relative educational_materials/asymptotics.html %}
+</details>
+
+<details>
+    <summary>Disjoint Sets</summary>
+    {% include_relative educational_materials/disjoint_sets_discussion.md %}
+</details>
+
+<details>
+    <summary>Hashing</summary>
+    {% include_relative educational_materials/hashing.html %}
+</details>
+
+<details>
+    <summary>Tree and Graph Algorithm Conceptual Questions</summary>
+    {% include_relative educational_materials/trees_and_graphs.html %}
+</details>
+
+<details>
+    <summary>Minimum Spanning Trees</summary>
+    {% include_relative educational_materials/msts.html %}
+</details>
+
+<details>
+    <summary>Shortest Paths Algorithms</summary>
+    {% include_relative educational_materials/shortest_paths.html %}
+</details>
+
+<details>
+    <summary>Sorting Algorithms</summary>
+    {% include_relative educational_materials/sorting.html %}
+</details>

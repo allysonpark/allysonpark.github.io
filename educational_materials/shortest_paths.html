@@ -1,0 +1,144 @@
+<style>
+    .toy-input {
+        margin: 0;
+        width: 1rem;
+    }
+</style>
+<div class="question-area">
+    <h4 class="problem-title">The Shortest Path To Your Heart</h4>
+    <p>For the graph below, let <b>g(u, v)</b> be the weight of the edge between any nodes <b>u</b> and <b>v</b>. Let
+        <b>h(u, v)</b> be the value returned by the heuristic for any nodes <b>u</b> and <b>v</b>.</p>
+    <img src="./educational_materials/images/shortest_paths_graph.png" alt="A graph, consisting of 7 vertices with labels A-G. It contains weighted edges,
+    listed as follows: (A, B) = 1. (B, C) = 3. (C, F) = 2. (C, G) = 4. (F, G) = 1. (A, D) = 2. (D, E) = 3. (E, G) = 4. (A, E) = 7"/>
+    <p>
+        Below, the pseudocode for Dijkstra's and A* are both shown for your reference throughout the problem.
+    </p>
+    {% highlight java %}
+function dijkstrasAlgorithm:
+  PQ = new PriorityQueue()
+  PQ.add(A, 0)
+  PQ.add(v, infinity) # (all nodes except A).
+
+  distTo = {} # map
+  distTo[A] = 0
+  distTo[v] = infinity # (all nodes except A).
+
+  while (not PQ.isEmpty()):
+    popNode, popPriority = PQ.pop()
+    for child in popNode.children:
+      if PQ.contains(child):
+        potentialDist = distTo[popNode] + edgeWeight(popNode, child)
+        if potentialDist < distTo[child]:
+          distTo.put(child, potentialDist)
+          PQ.changePriority(child, potentialDist)
+    {% endhighlight %}
+
+    {% highlight java %}
+function aStarSearch:
+  PQ = new PriorityQueue()
+  PQ.add(A, h(A))
+  PQ.add(v, infinity) # (all nodes except A).
+
+  distTo = {} # map
+  distTo[A] = 0
+  distTo[v] = infinity # (all nodes except A).
+
+  while (not PQ.isEmpty()):
+    poppedNode, poppedPriority = PQ.pop()
+    if (poppedNode == goal): terminate
+
+    for child in poppedNode.children:
+      if PQ.contains(child):
+        potentialDist = distTo[poppedNode] + edgeWeight(poppedNode, child)
+        if potentialDist < distTo[child]:
+          distTo.put(child, potentialDist)
+          PQ.changePriority(child, potentialDist + h(child))
+    {% endhighlight %}
+
+
+    <p>
+        <b>Run Dijkstra's algorithm to find the shortest paths from <i>A</i> to every other vertex. You may find it
+            helpful to keep track of the priority queue. We have provided a table to keep track of best distances, and
+            the edge leading to each vertex on the currently known shortest paths.</b>
+    </p>
+
+    <table>
+        <tr>
+            <th></th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th>distTo</th>
+            <td><input id="node" type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+        </tr>
+        <tr>
+            <th>edgeTo</th>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+        </tr>
+    </table>
+
+    <p>
+        <b>Extra: Given the weights on the graph above, as well as the heuristic values listed below, what path would A* search return, starting
+            from <i>A</i> and with <i>G</i> as a goal?</b>
+    </p>
+    <ul>
+        <li>h(A, G) = 7</li>
+        <li>h(B, G) = 6</li>
+        <li>h(C, G) = 3</li>
+        <li>h(D, G) = 6</li>
+        <li>h(E, G) = 3</li>
+        <li>h(F, G) = 1</li>
+    </ul>
+
+    <table>
+        <tr>
+            <th></th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>F</th>
+            <th>G</th>
+        </tr>
+        <tr>
+            <th>distTo</th>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+            <td><input type="number" class="toy-input"/></td>
+        </tr>
+        <tr>
+            <th>edgeTo</th>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+            <td><input type="text" class="toy-input"/></td>
+        </tr>
+    </table>
+
+</div>

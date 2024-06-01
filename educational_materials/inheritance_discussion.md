@@ -1,6 +1,11 @@
-<h4>"Senior class"</h4>
-For each line in the <b>main</b> method of our <b>testPeople</b> class, if something is printed, write it next to the line. If the line results in an error, write next it whether it is a compile time error or runtime error, and then proceed as if that line were not there. 
-
+<div class="question-area">
+    <h4 class="problem-title">
+        "Senior class"
+    </h4>
+    
+    <p>
+    For each line in the <b>main</b> method of our <b>testPeople</b> class, if something is printed, write it next to the line. If the line results in an error, write next it whether it is a compile time error or runtime error, and then proceed as if that line were not there. 
+    
 {% highlight java %}
 public class Person {
     public String name;
@@ -50,3 +55,5 @@ public class testPeople {
     }
 }
 {% endhighlight %}
+    </p>
+</div>
