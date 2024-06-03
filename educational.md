@@ -4,7 +4,7 @@ layout: educational
 
 # Educational Materials
 
-All of the educational content below was created for usage in Berkeley's CS61B: Data Structures and Algorithms. My involvement with the course is as follows:
+All the educational content below was created for usage in Berkeley's CS61B: Data Structures and Algorithms. My involvement with the course is as follows:
 - [Spring 2020] Academic Intern 
 - [Fall 2020] TA
 - [Spring 2021] TA, Head of discussion
@@ -12,7 +12,7 @@ All of the educational content below was created for usage in Berkeley's CS61B: 
 - [Fall 2021, Spring 2022] TA, Head of homework assignments
 
 ## Educational videos
-With the exception of the first link below, the _lectures_ I delivered from CS61BL Su21 are the property of the University, and are not publicly available on Youtube. The other videos I delivered are recorded discussion walkthroughs from CS61B Sp21. Each video contains some course announcements, a content review, and then goes over worksheet questions.
+With the exception of the first link below, the _lectures_ I delivered from CS61BL Su21 are the property of the University, and are not publicly available on YouTube. The other videos I delivered are recorded discussion walkthroughs from CS61B Sp21. Each video contains some course announcements, a content review, and then goes over worksheet questions.
 
 * [Lecture on Inheritance, Types, and Dynamic Method Selection](https://www.youtube.com/watch?v=ZS9ejYKKL8U&list=PL102eBoiAo8l1BatYdB0fjfqELIjRlSfp&index=11)
 * [Introduction to Java](https://www.youtube.com/watch?v=COw3Pl1Q-KI&t=50s)

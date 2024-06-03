@@ -17,10 +17,10 @@ sass:
 nav:
   - name: "Projects"
     link: "projects"
-  - name: "Contact"
-    link: "contact"
   - name: "Educational"
     link: "educational"
+  - name: "Contact"
+    link: "contact"
 
 # Build settings
 markdown: kramdown

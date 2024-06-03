@@ -28,7 +28,9 @@ This project is still in development. InTune is an iOS application that allows t
 ![inTune Preview](images/inTuneOverview.png)
 
 ## IBM Summer Research Project: Autofocusing a Digital Holographic Microscope
-Details of this project, including code, are confidential. Basic ideas to power this project include: image/video processing and manipulation, supervised machine learning, building command line applications, and building and working with large datasets.
+As an intern at IBM, I researched mechanisms for autofocusing a digital holographic microscope. The paper is available as a part of the [SPIE Digital Library](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11710/2582798/Evaluating-autofocusing-metrics-for-plankton-holographic-microscope-image-reconstruction/10.1117/12.2582798.short). 
+
+Basic ideas to power this project include: image/video processing and manipulation, supervised machine learning, building command line applications, and building and working with large datasets.
 
 | Unfocused/Raw Images Collected From Holographic Microscope | Auto-focused Image Using Algorithm Developed Over Summer |
 |------------------------------------------------------------|----------------------------------------------------------|
@@ -44,3 +46,13 @@ The specifications for the assignment can be found on the [course website](https
 This project completed as part of the Berkeley course CS188: Introduction To Artificial Intelligence. Graphics and base code largely authored by CS188 Course Staff. I implemented depth first search, breadth first search, uniform cost search, A* search, and greedy search. I also implemented set up of the food search problem, which defines PacMan's goal as eating all the food (as opposed to a general maze solving problem). My algorithm solves the below food search problem in 6.8 seconds with only 4436 nodes of the search tree expanded. This is compared to the naive solution, which takes 13 seconds and expands over 16,000 nodes. As a school project, code must be private and can be shared upon request.
 
 ![pacman](images/pacman.png)
+
+## Publications from Bondy-Denomy Laboratory
+Before worrying about viruses that affected _computers_, I spent my days worrying about viruses that affected _bacteria_ (bacteriophages). You may have heard of CRISPR-Cas9, a type of bacterial immune system that rose to fame for its usage in genetic engineering. My researched involved discovering new _anti-CRISPR_ proteins, which naturally occur in bacteriophages and inhibit CRISPR-Cas9. Applications of anti-CRISPR proteins include:
+* Increasing precision in CRISPR-Cas9 gene editing
+* Detecting if a given bacteria strain utilizes a CRISPR-Cas9 immune system
+* Arming bacteriophages for "phage therapy", a strategy for eliminating antibiotic-resistant bacterial infections.
+
+Publications are linked here:
+* [Machine-learning approach expands the repertoire of anti-CRISPR protein families](https://pubmed.ncbi.nlm.nih.gov/32728052/)
+* [Mobile element warfare via CRISPR and anti-CRISPR in Pseudomonas aeruginosa](https://pubmed.ncbi.nlm.nih.gov/33544853/)
