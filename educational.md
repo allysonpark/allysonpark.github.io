@@ -4,7 +4,17 @@ layout: educational
 
 # Educational Materials
 
+All of the educational content below was created for usage in Berkeley's CS61B: Data Structures and Algorithms. My involvement with the course is as follows:
+- [Spring 2020] Academic Intern 
+- [Fall 2020] TA
+- [Spring 2021] TA, Head of discussion
+- [Summer 2021] Instructor/Lecturer for [CS61BL](https://cs61bl.org/su21/). CS61BL is the 8-week summer offering of CS61B. The material covered is mostly the same but there is a larger emphasis on coding assignments.
+- [Fall 2021, Spring 2022] TA, Head of homework assignments
+
 ## Educational videos
+With the exception of the first link below, the _lectures_ I delivered from CS61BL Su21 are the property of the University, and are not publicly available on Youtube. The other videos I delivered are recorded discussion walkthroughs from CS61B Sp21. Each video contains some course announcements, a content review, and then goes over worksheet questions.
+
+* [Lecture on Inheritance, Types, and Dynamic Method Selection](https://www.youtube.com/watch?v=ZS9ejYKKL8U&list=PL102eBoiAo8l1BatYdB0fjfqELIjRlSfp&index=11)
 * [Introduction to Java](https://www.youtube.com/watch?v=COw3Pl1Q-KI&t=50s)
 * [Scope, Static Types, and Linked Lists](https://www.youtube.com/watch?v=oitkXxfpHvM)
 * [Inheritance](https://www.youtube.com/watch?v=myZCf8ChuB8&t=1351s)
@@ -23,6 +33,11 @@ layout: educational
 These questions for written for CS61B's Discussion questions during Spring 2021. All questions and solutions shown were written by myself and potentially edited/reviewed by other GSIs; parts that were fully written by other individuals have been omitted. The questions may be viewed as PDFs or by clicking the dropdowns below.
 
 [Worksheet PDF](educational_materials/Discussion_Questions_Authorship_Compilation.pdf) \| [Solution PDF](educational_materials/Discussion_Questions_Authorship_Compilation_Solutions.pdf)
+
+<details>
+    <summary>Intro to Java and static vs class variables</summary>
+    {% include_relative educational_materials/intro_java.html %}
+</details>
 
 <details>
     <summary>Inheritance</summary>
@@ -69,3 +84,4 @@ These questions for written for CS61B's Discussion questions during Spring 2021.
     <summary>Sorting Algorithms</summary>
     {% include_relative educational_materials/sorting.html %}
 </details>
+
